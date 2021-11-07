@@ -1,5 +1,5 @@
 # create-react-app-without-CRA
-This repo creates a simple react app from scratch, not using create-react-app.
+This repo manually configure a minimal setup for React without create-react-app.
 
 ## Steps to create app:
 1. Run `npm init` to manage your package.
