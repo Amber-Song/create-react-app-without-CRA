@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Amber-Song/create-react-app-without-CRA/issues"
   },
-  "homepage": "https://github.com/Amber-Song/create-react-app-without-CRA#readme"
+  "homepage": "https://github.com/Amber-Song/create-react-app-without-CRA#readme",
+  "devDependencies": {
+    "webpack": "^5.62.1",
+    "webpack-cli": "^4.9.1"
+  }
 }
