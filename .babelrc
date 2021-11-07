@@ -1,0 +1,6 @@
+{
+    "presets": [
+        "@babel/preset-react", // Convert the react function to functions what could be understand
+        "@babel/preset-env" // a smart preset that allows you to use the latest JavaScript without needing to micromanage which syntax transforms
+    ]
+}
