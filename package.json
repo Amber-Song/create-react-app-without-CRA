@@ -1,0 +1,19 @@
+{
+  "name": "create-react-app-without-cra",
+  "version": "1.0.0",
+  "description": "This repo creates a simple react app from scratch, not using create-react-app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amber-Song/create-react-app-without-CRA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amber-Song/create-react-app-without-CRA/issues"
+  },
+  "homepage": "https://github.com/Amber-Song/create-react-app-without-CRA#readme"
+}
