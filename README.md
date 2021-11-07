@@ -13,3 +13,6 @@ This repo creates a simple react app from scratch, not using create-react-app.
 1. Add build script in *package.json* so that you don't need to remember the command for running webpack, just run `npm run build`.
 
 Now when you open *index.html* with browser, you can see 'Hello world' on the page! Checkout commits for each step.
+
+Also! Checkout [webpack start tutorial](https://webpack.js.org/guides/getting-started/) for more explanation and feature.
+Checkout [babel](https://babeljs.io/docs/en/babel-preset-react) for more explanation and feature.
