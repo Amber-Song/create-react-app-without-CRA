@@ -10,5 +10,6 @@ This repo creates a simple react app from scratch, not using create-react-app.
 1. To make webpack work for react app, we need to install babel loader and configure webpack to use babel loader to transform JS and JSX file.
 1. To make babel work, we need to configure babel.
 1. And now when you run `npx webpack`, you can see main.js file is generated. We need to add this script in index.html.
+1. Add build script in package.json so that you don't need to remember the command for running webpack.
 
 Now when you open it with browser, you can see 'Hello world' on the page! Checkout commits for each step.
