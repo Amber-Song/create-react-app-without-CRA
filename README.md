@@ -1,7 +1,7 @@
 # create-react-app-without-CRA
 This repo manually configure a minimal setup for React without create-react-app.
 
-## Steps to create app:
+## Steps to create react app use webpack and babel:
 1. Run `npm init` to manage your package.
 1. Then Run `npm install webpack webpack-cli --save-dev` to install webpack and webpack-cli.
     Webpack is a module bundler. It takes modules with dependencies and generates a static file that could be served to browser.
@@ -16,3 +16,6 @@ Now when you open *index.html* with browser, you can see 'Hello world' on the pa
 
 Also! Checkout [webpack start tutorial](https://webpack.js.org/guides/getting-started/) for more explanation and feature.
 Checkout [babel](https://babeljs.io/docs/en/babel-preset-react) for more explanation and feature.
+
+## Steps to create react app use CDN link:
+I read a [tutorial](https://www.pluralsight.com/guides/using-react-router-with-cdn-links) online to implement this.
