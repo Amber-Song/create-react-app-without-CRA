@@ -19,3 +19,4 @@ Checkout [babel](https://babeljs.io/docs/en/babel-preset-react) for more explana
 
 ## Steps to create react app use CDN link:
 I read a [tutorial](https://www.pluralsight.com/guides/using-react-router-with-cdn-links) online to implement this.
+Checkout `using-CDN-link` branch to see the example.
