@@ -22,10 +22,28 @@
       -->
     <script type='text/babel'>
         class App extends React.Component {
+            constructor(props) {
+                super(props);
+                this.state = {
+                    component: 'class'
+                }
+            }
+
+            componentDidMount() {
+                console.log("This is a " + this.state.component + " component");
+                Promise.resolve('success').then(() => {
+                    this.setState({
+                        component: 'functional'
+                    });
+                    console.log("It change to a " + this.state.component + " component");
+                })
+            }
+
             render() {
                 return (
                     <h1>
                         Hello world!
+                        This is a {this.state.component} component.
                     </h1>
                 )
             }
